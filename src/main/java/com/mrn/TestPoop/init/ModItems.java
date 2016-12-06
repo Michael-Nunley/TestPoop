@@ -9,6 +9,6 @@ public class ModItems
 
     public static void init()
     {
-        GameRegistry.registerItem(leaf, "Leaf");
+        GameRegistry.registerItem(leaf, "leaf");
     }
 }

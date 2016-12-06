@@ -12,8 +12,6 @@ public class item_TP extends Item
     public item_TP()
     {
         super();
-        this.maxStackSize = 1;
-        this.setNoRepair();
     }
 
     @Override
