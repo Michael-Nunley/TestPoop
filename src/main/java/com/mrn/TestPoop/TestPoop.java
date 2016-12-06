@@ -1,6 +1,7 @@
 package com.mrn.TestPoop;
 
 import com.mrn.TestPoop.config.ConfigHandle;
+import com.mrn.TestPoop.init.ModItems;
 import com.mrn.TestPoop.proxy.IProxy;
 import com.mrn.TestPoop.reference.Reference;
 import com.mrn.TestPoop.utility.LogHelper;
@@ -27,6 +28,8 @@ public class TestPoop
         ConfigHandle.init(event.getSuggestedConfigurationFile());
         FMLCommonHandler.instance().bus().register(new ConfigHandle());
         LogHelper.info("Preinit done!");
+
+        ModItems.init();
     }
 
     @Mod.EventHandler
