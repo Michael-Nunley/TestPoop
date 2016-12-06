@@ -1,31 +1,35 @@
 package com.mrn.TestPoop.config;
 
+import com.mrn.TestPoop.reference.Reference;
+import cpw.mods.fml.client.event.ConfigChangedEvent;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 
 public class ConfigHandle
 {
+
+    public static Configuration configuration;
+
+    public static boolean testValue = false;
+
     public static void init(File configFile)
     {
-        Configuration configuration = new Configuration(configFile);
 
-        boolean configValue = false;
-        try
-        {
-            configuration.load();
+        if(configuration == null){configuration = new Configuration(configFile); loadConfiguration();}
 
-            configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "Wow!").getBoolean(true);
-        }
-        catch (Exception e)
-        {
+    }
+    @SubscribeEvent
+    public void onConfigurationChangedEvent(ConfigChangedEvent.OnConfigChangedEvent event)
+    {
+        if(event.modID.equalsIgnoreCase(Reference.MOD_ID)) {loadConfiguration();}
+    }
 
-        }
-        finally
-        {
-            configuration.save();
-        }
+    private static void loadConfiguration()
+    {
+        testValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "Wow!").getBoolean(true);
 
-        System.out.println("[TestPoop] " + configValue);
+        if(configuration.hasChanged()){configuration.save();}
     }
 }
