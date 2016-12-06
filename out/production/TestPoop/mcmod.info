@@ -1,0 +1,19 @@
+[
+{
+  "modid": "TestPoop",
+  "name": "Test Poop",
+  "description": "x-treme poop",
+  "version": "1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authors": [
+    "M-RN"
+  ],
+  "credits": "Wow cool.",
+  "logoFile": "",
+  "parent":"",
+  "dependencies": [
+	 "mod_MinecraftForge"
+]
+}
