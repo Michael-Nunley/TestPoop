@@ -5,18 +5,16 @@
  R4wk, ZeuX, IngisKahn, bspkrs
  MCP Data version : unknown
 ****************************
-:compileApiJava UP-TO-DATE
-:processApiResources UP-TO-DATE
-:apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-1 warning
+:help
 
-:processResources UP-TO-DATE
-:classes
-:jar
-:install
+Welcome to Gradle 2.0.
+
+To run a build, run gradle <task> ...
+
+To see a list of available tasks, run gradle tasks
+
+To see a list of command-line options, run gradle --help
 
 BUILD SUCCESSFUL
 
-Total time: 8.15 secs
+Total time: 4.141 secs
