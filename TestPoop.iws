@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e19cb55-6d20-4394-a89e-7f4a48af1ade" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/testpoop/lang/en_US.lang" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/TestPoop.java" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/TestPoop.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/testpoop.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/client/gui/GuiFactory.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/client/gui/GuiFactory.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/client/gui/mod_guiConfig.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/client/gui/mod_guiConfig.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/config/ConfigHandle.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/config/ConfigHandle.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/init/ModItems.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/item/item_TP.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/item/item_TP.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/item/item_leaf.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/item/item_leaf.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/proxy/ClientProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/proxy/CommonProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/proxy/CommonProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/proxy/IProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/proxy/IProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/proxy/ServerProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/proxy/ServerProxy.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/reference/Reference.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/mrn/TestPoop/utility/LogHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/mrn/testpoop/utility/LogHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/TestPoop_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/TestPoop_main.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/TestPoop.ipr" afterPath="$PROJECT_DIR$/testpoop.ipr" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TestPoop.iws" afterPath="$PROJECT_DIR$/TestPoop.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/TestPoop/mcmod.info" afterPath="$PROJECT_DIR$/out/production/TestPoop/mcmod.info" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -179,8 +162,8 @@
       <file leaf-file-name="mcmod.info" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+            <state relative-caret-position="238">
+              <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -1320,6 +1303,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestPoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestPoop" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gradle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -1977,10 +1978,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/gradlew">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="238">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
           <folding />
         </state>
       </provider>
