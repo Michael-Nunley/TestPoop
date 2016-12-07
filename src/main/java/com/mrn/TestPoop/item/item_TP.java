@@ -1,6 +1,6 @@
-package com.mrn.TestPoop.item;
+package com.mrn.testpoop.item;
 
-import com.mrn.TestPoop.reference.Reference;
+import com.mrn.testpoop.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;

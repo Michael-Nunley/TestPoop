@@ -1,4 +1,4 @@
-package com.mrn.TestPoop.proxy;
+package com.mrn.testpoop.proxy;
 
 public interface IProxy
 {

@@ -1,13 +1,11 @@
-package com.mrn.TestPoop.client.gui;
+package com.mrn.testpoop.client.gui;
 
-import com.mrn.TestPoop.config.ConfigHandle;
-import com.mrn.TestPoop.reference.Reference;
+import com.mrn.testpoop.config.ConfigHandle;
+import com.mrn.testpoop.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
 import net.minecraft.client.gui.GuiScreen;
 import net.minecraftforge.common.config.ConfigElement;
 import net.minecraftforge.common.config.Configuration;
-
-import java.util.List;
 
 public class mod_guiConfig extends GuiConfig
 {

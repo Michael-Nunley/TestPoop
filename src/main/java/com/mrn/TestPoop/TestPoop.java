@@ -1,10 +1,10 @@
-package com.mrn.TestPoop;
+package com.mrn.testpoop;
 
-import com.mrn.TestPoop.config.ConfigHandle;
-import com.mrn.TestPoop.init.ModItems;
-import com.mrn.TestPoop.proxy.IProxy;
-import com.mrn.TestPoop.reference.Reference;
-import com.mrn.TestPoop.utility.LogHelper;
+import com.mrn.testpoop.config.ConfigHandle;
+import com.mrn.testpoop.init.ModItems;
+import com.mrn.testpoop.proxy.IProxy;
+import com.mrn.testpoop.reference.Reference;
+import com.mrn.testpoop.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -13,11 +13,11 @@ import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid=Reference.MOD_ID, name=Reference.MOD_NAME, version=Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class TestPoop
+public class testpoop
 {
 
     @Mod.Instance(Reference.MOD_ID)
-    public static TestPoop instance;
+    public static testpoop instance;
 
     @SidedProxy(clientSide=Reference.CLIENT_PROXY_CLASS, serverSide=Reference.SERVER_PROXY_CLASS)
     public static IProxy proxy;

@@ -1,4 +1,4 @@
-package com.mrn.TestPoop.client.gui;
+package com.mrn.testpoop.client.gui;
 
 import cpw.mods.fml.client.IModGuiFactory;
 import net.minecraft.client.Minecraft;

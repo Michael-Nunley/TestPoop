@@ -1,8 +1,8 @@
-package com.mrn.TestPoop.utility;
+package com.mrn.testpoop.utility;
 
 import cpw.mods.fml.common.FMLLog;
 import org.apache.logging.log4j.Level;
-import com.mrn.TestPoop.reference.Reference;
+import com.mrn.testpoop.reference.Reference;
 
 public class LogHelper
 {
