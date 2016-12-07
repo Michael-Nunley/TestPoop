@@ -1,6 +1,6 @@
 [
 {
-  "modid": "TestPoop",
+  "modid": "test[oop",
   "name": "Test Poop",
   "description": "Wow... it's poop'",
   "version": "1.0",
@@ -14,7 +14,7 @@
   "logoFile": "",
   "screenshots": [
   ],
-  "parent":"",
+  "parent": "",
   "dependencies": [
   ]
 }

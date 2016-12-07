@@ -19,7 +19,7 @@ apply plugin: 'forge'
 
 version = "1.7.10-1.0"
 group= "com.mrn.TestPoop" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "TestPoop"
+archivesBaseName = "testpoop"
 
 minecraft {
     version = "1.7.10-10.13.4.1614-1.7.10"
@@ -61,3 +61,5 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+idea { module { inheritOutputDirs = true } }
